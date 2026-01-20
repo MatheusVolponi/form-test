@@ -138,6 +138,32 @@
                 <input type="color" name="userFavoriteColor" id="favoriteColor">          
             </fieldset>
 
+            <fieldset>
+                <!-- Satisfação -->
+                <legend>Opinião</legend>
+
+                <p>O que você acha da qualidade do nosso serviço?</p>
+
+                <input id="great" type="radio" name="userServiceOpinion" value="Otima">
+                <label for="great">Ótima</label>
+                <br>
+
+                <input id="good" type="radio" name="userServiceOpinion" value="Boa">
+                <label for="good">Boa</label>
+                <br>
+
+                <input id="regular" type="radio" name="userServiceOpinion" value="Regular">
+                <label for="regular">Regular</label>
+                <br>
+
+                <input id="bad" type="radio" name="userServiceOpinion" value="Ruim">
+                <label for="bad">Ruim</label>
+                <br>
+
+                <label for="comment">Comentário:</label>
+                <textarea name="userComment" id="comment" placeholder="Digite aqui sua opinião..."></textarea>
+            </fieldset>
+
             <button type="submit">Enviar</button>
         </form>
     </section>
